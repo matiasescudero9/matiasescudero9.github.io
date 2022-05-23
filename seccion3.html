@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang= “es”>
+ <head>
+ <meta charset="utf-8"/>
+ <script src="https://kit.fontawesome.com/6145368a9c.js" crossorigin="anonymous"></script>
+ <title>titulo de la página</title>
+ <link rel="STYLESHEET" href="seccion3.css">
+ <link  rel="icon" href="icon.ico" type="image/png" />
+ <script src="https://kit.fontawesome.com/6145368a9c.js" crossorigin="anonymous"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@600&family=Sarala&display=swap" rel="stylesheet">
+
+<body>
+
+    <nav>
+ <div id = "menu">
+ <div id = "titulo"><i class="fa-solid fa-plane"></i><a href="mipagina.html">&nbsp;TITULO</a></div>
+ <div class = seccion><a href="seccion1.html">DESTINOS</a></div>
+ <div class = seccion><a href="seccion2.html">QUIÉNES SOMOS</a></div>
+ <div class = seccion><a href="seccion3.html">CONTACTO</a></div>
+  </div>
+    </nav>
+
+  <script src="form.js"></script>
+
+
+<div id="form">
+  <form name="formulario">
+  <h1>FORMULARIO DE CONTACTO</h1>
+  *Nombre/s <br> <input type="text" name="nombre" onkeypress="return sololetras(event)"> <br><br>
+  *Apellido/s <br> <input type="text" name="apellido" onkeypress="return sololetras(event)"><br><br>
+  *Teléfono <br> <input type="text" name="telefono" onkeypress="return solonumeros(event)"> <br><br>
+  *Correo electrónico <br> <input type="text" name="mail"> <br><br>
+  *Asunto <br> <input type="text" name="asunto"> <br><br>
+  *Mensaje <br> <textarea name="comentario"></textarea> <br><br>
+  <button type= "submit" onclick="validar()">Enviar</button>
+  </form>
+</div>
+
+<footer> 
+  <i class="fa-brands fa-facebook-f"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-google-plus-g"></i>
+ </footer>
+    
+</body>
+</html>

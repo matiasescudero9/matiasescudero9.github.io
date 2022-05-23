@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, aquamarine, rgb(121, 121, 182));
+    background-position: center center;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  #menu{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+  }
+  
+  #menu div:first-child{
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    display: flex;
+    flex: auto;
+    font-size: 4em;
+    font-family: Lalezar; /*CAMBIAR */
+    align-items: center;
+  }
+  
+  #menu i{
+    margin-left: 0.2em;
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+  }
+  
+  .seccion{
+      width: 18%;
+      text-align: center;
+      line-height: 6.25em;
+      font-size: 1.5em;
+      font-family: Sarala; /*CAMBIAR */
+      background-color: rgba(0, 0, 0, .3);
+    }
+  
+  #menu a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  #menu a:hover{
+    color: rgba(0, 0, 0, 1);
+  }
+
+  #titulo a:hover{
+    color: white;
+  }
+
+#form{
+    width: 50%;
+    height: 47em;
+    background-color: aliceblue;
+    margin-left: 0.5em;
+    margin-bottom: 1.2em;
+}
+
+form{
+ font-family: 'Open Sans';
+}
+
+input{
+  width: 70%;
+  height: 2em;
+}
+
+textarea{
+  width: 70%;
+  height: 15em;
+}
+
+button{
+  width: 5em;
+  height: 3em;
+  color: white;
+  background-color: orange;
+  border-radius: 0.5em;
+  border-color: orange;
+  font-family: 'Open Sans';
+  margin-left: 1em;
+}
+
+footer{
+  color: white;
+  background-color: rgba(0, 0, 0, .3);
+  font-size: 1.2em;
+  padding: 0.3em 0;
+  bottom: 0;
+  width: 100%;
+  text-align: end;
+  }
+
+  footer i{
+    margin: 0.6em;
+  }
+
+  footer i:hover{
+    color: rgba(69, 68, 68, 0.667);
+  }
